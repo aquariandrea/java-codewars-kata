@@ -1,4 +1,5 @@
 import java.util.function.UnaryOperator;
+
 class Opstrings {
 
     public static String vertMirror (String strng) {
