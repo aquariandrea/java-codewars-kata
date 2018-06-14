@@ -6,4 +6,3 @@ public class Kata {
     }
     return myBuilder.toString();
   }
-}
