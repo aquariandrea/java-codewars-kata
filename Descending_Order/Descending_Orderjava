@@ -1,0 +1,11 @@
+import java.util.Arrays;
+
+public class DescendingOrder {
+  public static int sortDesc(final int num) {
+    char[] charArray = String.valueOf(num).toCharArray();
+    Arrays.sort(charArray);
+    StringBuilder myBuilder = new StringBuilder(new String(charArray));
+    myBuilder.reverse();
+    return Integer.valueOf(myBuilder.toString());
+  }
+}
